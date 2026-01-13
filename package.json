@@ -1,0 +1,21 @@
+{
+  "name": "scipy-js",
+  "version": "0.1.0",
+  "description": "JavaScript port of SciPy linear algebra and sparse matrix functionality",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "scipy",
+    "linear-algebra",
+    "sparse-matrix",
+    "eigenvalues",
+    "scientific-computing"
+  ],
+  "author": "",
+  "license": "BSD-3-Clause",
+  "dependencies": {},
+  "devDependencies": {}
+}

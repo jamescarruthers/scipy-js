@@ -296,3 +296,4 @@ scipy/special/_exprel.c
 scipy/optimize/_group_columns.c
 scipy/optimize/cython_optimize/_zeros.c
 scipy/optimize/cython_optimize/_zeros.pyx
+node_modules/
