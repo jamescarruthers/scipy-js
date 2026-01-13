@@ -5,7 +5,12 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "test:python-compare": "node --test tests/test_with_python_data.js",
+    "example:sparse": "node examples/sparse_matrices.js",
+    "example:linalg": "node examples/linalg_operations.js",
+    "example:eigenvalues": "node examples/eigenvalues.js",
+    "example:all": "node example.js"
   },
   "keywords": [
     "scipy",

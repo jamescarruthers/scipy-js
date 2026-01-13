@@ -283,8 +283,40 @@ const vecs = result.vectors;
 Run the test suite:
 
 ```bash
-node --test test.js
+# Run basic tests
+npm test
+
+# Run Python comparison tests (validates against scipy output)
+node --test tests/test_with_python_data.js
 ```
+
+### Test Data Generation
+
+The repository includes a Python script that generates test data from scipy for validation:
+
+```bash
+cd tests
+python3 generate_test_data.py
+```
+
+This creates `test_data.json` containing expected outputs from Python's scipy library, which is used by `tests/test_with_python_data.js` to validate the JavaScript implementation.
+
+## Examples
+
+The `examples/` directory contains comprehensive examples demonstrating all features:
+
+```bash
+# Run sparse matrices example
+node examples/sparse_matrices.js
+
+# Run linear algebra operations example
+node examples/linalg_operations.js
+
+# Run eigenvalue problems example
+node examples/eigenvalues.js
+```
+
+See [`examples/README.md`](examples/README.md) for detailed documentation.
 
 ## Implementation Notes
 
