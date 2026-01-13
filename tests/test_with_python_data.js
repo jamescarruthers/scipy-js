@@ -174,5 +174,3 @@ test('Sparse Eigenvalue Problems (eigsh) - Python comparison', async (t) => {
     });
   }
 });
-
-console.log('\n✅ All Python comparison tests passed!');
